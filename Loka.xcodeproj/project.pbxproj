@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80604DFF1A4A8E81001B0EC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80604DFE1A4A8E81001B0EC8 /* main.m */; };
+		80604E021A4A8E81001B0EC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80604E011A4A8E81001B0EC8 /* AppDelegate.m */; };
+		80604E051A4A8E81001B0EC8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80604E041A4A8E81001B0EC8 /* FirstViewController.m */; };
+		80604E081A4A8E81001B0EC8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80604E071A4A8E81001B0EC8 /* SecondViewController.m */; };
+		80604E0B1A4A8E81001B0EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80604E091A4A8E81001B0EC8 /* Main.storyboard */; };
+		80604E0D1A4A8E81001B0EC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80604E0C1A4A8E81001B0EC8 /* Images.xcassets */; };
+		80604E101A4A8E81001B0EC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80604E0E1A4A8E81001B0EC8 /* LaunchScreen.xib */; };
+		80604E1C1A4A8E81001B0EC8 /* LokaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80604E1B1A4A8E81001B0EC8 /* LokaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80604E161A4A8E81001B0EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80604DF11A4A8E81001B0EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80604DF81A4A8E81001B0EC8;
+			remoteInfo = Loka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80604DF91A4A8E81001B0EC8 /* Loka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80604DFD1A4A8E81001B0EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80604DFE1A4A8E81001B0EC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80604E001A4A8E81001B0EC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80604E011A4A8E81001B0EC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80604E031A4A8E81001B0EC8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		80604E041A4A8E81001B0EC8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		80604E061A4A8E81001B0EC8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		80604E071A4A8E81001B0EC8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		80604E0A1A4A8E81001B0EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80604E0C1A4A8E81001B0EC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80604E0F1A4A8E81001B0EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80604E151A4A8E81001B0EC8 /* LokaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80604E1A1A4A8E81001B0EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80604E1B1A4A8E81001B0EC8 /* LokaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LokaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80604DF61A4A8E81001B0EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80604E121A4A8E81001B0EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80604DF01A4A8E81001B0EC8 = {
+			isa = PBXGroup;
+			children = (
+				80604DFB1A4A8E81001B0EC8 /* Loka */,
+				80604E181A4A8E81001B0EC8 /* LokaTests */,
+				80604DFA1A4A8E81001B0EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80604DFA1A4A8E81001B0EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80604DF91A4A8E81001B0EC8 /* Loka.app */,
+				80604E151A4A8E81001B0EC8 /* LokaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80604DFB1A4A8E81001B0EC8 /* Loka */ = {
+			isa = PBXGroup;
+			children = (
+				80604E001A4A8E81001B0EC8 /* AppDelegate.h */,
+				80604E011A4A8E81001B0EC8 /* AppDelegate.m */,
+				80604E031A4A8E81001B0EC8 /* FirstViewController.h */,
+				80604E041A4A8E81001B0EC8 /* FirstViewController.m */,
+				80604E061A4A8E81001B0EC8 /* SecondViewController.h */,
+				80604E071A4A8E81001B0EC8 /* SecondViewController.m */,
+				80604E091A4A8E81001B0EC8 /* Main.storyboard */,
+				80604E0C1A4A8E81001B0EC8 /* Images.xcassets */,
+				80604E0E1A4A8E81001B0EC8 /* LaunchScreen.xib */,
+				80604DFC1A4A8E81001B0EC8 /* Supporting Files */,
+			);
+			path = Loka;
+			sourceTree = "<group>";
+		};
+		80604DFC1A4A8E81001B0EC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80604DFD1A4A8E81001B0EC8 /* Info.plist */,
+				80604DFE1A4A8E81001B0EC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80604E181A4A8E81001B0EC8 /* LokaTests */ = {
+			isa = PBXGroup;
+			children = (
+				80604E1B1A4A8E81001B0EC8 /* LokaTests.m */,
+				80604E191A4A8E81001B0EC8 /* Supporting Files */,
+			);
+			path = LokaTests;
+			sourceTree = "<group>";
+		};
+		80604E191A4A8E81001B0EC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80604E1A1A4A8E81001B0EC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80604DF81A4A8E81001B0EC8 /* Loka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80604E1F1A4A8E81001B0EC8 /* Build configuration list for PBXNativeTarget "Loka" */;
+			buildPhases = (
+				80604DF51A4A8E81001B0EC8 /* Sources */,
+				80604DF61A4A8E81001B0EC8 /* Frameworks */,
+				80604DF71A4A8E81001B0EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loka;
+			productName = Loka;
+			productReference = 80604DF91A4A8E81001B0EC8 /* Loka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80604E141A4A8E81001B0EC8 /* LokaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80604E221A4A8E81001B0EC8 /* Build configuration list for PBXNativeTarget "LokaTests" */;
+			buildPhases = (
+				80604E111A4A8E81001B0EC8 /* Sources */,
+				80604E121A4A8E81001B0EC8 /* Frameworks */,
+				80604E131A4A8E81001B0EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80604E171A4A8E81001B0EC8 /* PBXTargetDependency */,
+			);
+			name = LokaTests;
+			productName = LokaTests;
+			productReference = 80604E151A4A8E81001B0EC8 /* LokaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80604DF11A4A8E81001B0EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "satheesh kumar";
+				TargetAttributes = {
+					80604DF81A4A8E81001B0EC8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					80604E141A4A8E81001B0EC8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 80604DF81A4A8E81001B0EC8;
+					};
+				};
+			};
+			buildConfigurationList = 80604DF41A4A8E81001B0EC8 /* Build configuration list for PBXProject "Loka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80604DF01A4A8E81001B0EC8;
+			productRefGroup = 80604DFA1A4A8E81001B0EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80604DF81A4A8E81001B0EC8 /* Loka */,
+				80604E141A4A8E81001B0EC8 /* LokaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80604DF71A4A8E81001B0EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80604E0B1A4A8E81001B0EC8 /* Main.storyboard in Resources */,
+				80604E101A4A8E81001B0EC8 /* LaunchScreen.xib in Resources */,
+				80604E0D1A4A8E81001B0EC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80604E131A4A8E81001B0EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80604DF51A4A8E81001B0EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80604E081A4A8E81001B0EC8 /* SecondViewController.m in Sources */,
+				80604E021A4A8E81001B0EC8 /* AppDelegate.m in Sources */,
+				80604E051A4A8E81001B0EC8 /* FirstViewController.m in Sources */,
+				80604DFF1A4A8E81001B0EC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80604E111A4A8E81001B0EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80604E1C1A4A8E81001B0EC8 /* LokaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80604E171A4A8E81001B0EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80604DF81A4A8E81001B0EC8 /* Loka */;
+			targetProxy = 80604E161A4A8E81001B0EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80604E091A4A8E81001B0EC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80604E0A1A4A8E81001B0EC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80604E0E1A4A8E81001B0EC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80604E0F1A4A8E81001B0EC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80604E1D1A4A8E81001B0EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80604E1E1A4A8E81001B0EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80604E201A4A8E81001B0EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Loka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80604E211A4A8E81001B0EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Loka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80604E231A4A8E81001B0EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LokaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loka.app/Loka";
+			};
+			name = Debug;
+		};
+		80604E241A4A8E81001B0EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LokaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loka.app/Loka";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80604DF41A4A8E81001B0EC8 /* Build configuration list for PBXProject "Loka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80604E1D1A4A8E81001B0EC8 /* Debug */,
+				80604E1E1A4A8E81001B0EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80604E1F1A4A8E81001B0EC8 /* Build configuration list for PBXNativeTarget "Loka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80604E201A4A8E81001B0EC8 /* Debug */,
+				80604E211A4A8E81001B0EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80604E221A4A8E81001B0EC8 /* Build configuration list for PBXNativeTarget "LokaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80604E231A4A8E81001B0EC8 /* Debug */,
+				80604E241A4A8E81001B0EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80604DF11A4A8E81001B0EC8 /* Project object */;
+}
